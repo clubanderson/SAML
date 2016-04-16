@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/24/trunk/java/samltool/templates
+END
+AuthnRequestTemplate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/java/samltool/templates/AuthnRequestTemplate.xml
+END
+SamlResponseTemplate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/24/trunk/java/samltool/templates/SamlResponseTemplate.xml
+END

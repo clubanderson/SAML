@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/29/trunk/java/samlsource/src/servlets
+END
+CreateRequestServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/java/samlsource/src/servlets/CreateRequestServlet.java
+END
+ProcessResponseServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/29/trunk/java/samlsource/src/servlets/ProcessResponseServlet.java
+END

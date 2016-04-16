@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/26/trunk/java/samlsource/src/util
+END
+RequestUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/java/samlsource/src/util/RequestUtil.java
+END
+XmlDigitalSigner.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/java/samlsource/src/util/XmlDigitalSigner.java
+END
+SamlException.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/java/samlsource/src/util/SamlException.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/16/trunk/java/samlsource/src/util/Util.java
+END

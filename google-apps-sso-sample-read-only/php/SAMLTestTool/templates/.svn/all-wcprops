@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/23/trunk/php/SAMLTestTool/templates
+END
+AuthnRequestTemplate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/php/SAMLTestTool/templates/AuthnRequestTemplate.xml
+END
+SamlResponseTemplate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/23/trunk/php/SAMLTestTool/templates/SamlResponseTemplate.xml
+END

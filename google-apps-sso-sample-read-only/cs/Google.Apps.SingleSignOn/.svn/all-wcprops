@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/31/trunk/cs/Google.Apps.SingleSignOn
+END
+CHANGES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/31/trunk/cs/Google.Apps.SingleSignOn/CHANGES.txt
+END
+VS2005.sln
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/cs/Google.Apps.SingleSignOn/VS2005.sln
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/21/trunk/cs/Google.Apps.SingleSignOn/README.txt
+END

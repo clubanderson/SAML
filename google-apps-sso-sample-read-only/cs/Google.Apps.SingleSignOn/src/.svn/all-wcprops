@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/25/trunk/cs/Google.Apps.SingleSignOn/src
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6/trunk/cs/Google.Apps.SingleSignOn/src/AssemblyInfo.cs
+END
+SamlUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/cs/Google.Apps.SingleSignOn/src/SamlUtility.cs
+END
+SamlRequestArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/cs/Google.Apps.SingleSignOn/src/SamlRequestArgs.cs
+END
+SamlResponse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/25/trunk/cs/Google.Apps.SingleSignOn/src/SamlResponse.xml
+END
+Google.Apps.SingleSignOn.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/cs/Google.Apps.SingleSignOn/src/Google.Apps.SingleSignOn.csproj
+END
+XmlDocumentSigner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/cs/Google.Apps.SingleSignOn/src/XmlDocumentSigner.cs
+END
+SamlParser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/25/trunk/cs/Google.Apps.SingleSignOn/src/SamlParser.cs
+END

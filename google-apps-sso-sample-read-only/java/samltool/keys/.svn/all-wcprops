@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/java/samltool/keys
+END
+DSAPrivateKey01.key
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/java/samltool/keys/DSAPrivateKey01.key
+END
+DSAPublicKey01.key
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/java/samltool/keys/DSAPublicKey01.key
+END

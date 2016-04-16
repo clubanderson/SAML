@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/33/trunk/php/SAMLTestTool
+END
+saml_util.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/php/SAMLTestTool/saml_util.php
+END
+saml_reference_implementation_web.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/php/SAMLTestTool/saml_reference_implementation_web.html
+END
+service_provider.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/php/SAMLTestTool/service_provider.php
+END
+create_request.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/php/SAMLTestTool/create_request.php
+END
+process_response.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/17/trunk/php/SAMLTestTool/process_response.php
+END
+CHANGES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/31/trunk/php/SAMLTestTool/CHANGES.txt
+END
+saml_demo.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/php/SAMLTestTool/saml_demo.php
+END
+identity_provider.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27/trunk/php/SAMLTestTool/identity_provider.php
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/33/trunk/php/SAMLTestTool/README.txt
+END

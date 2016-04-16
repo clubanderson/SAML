@@ -1,0 +1,72 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Verdana;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;}
+\margl1440\margr1440\vieww13800\viewh10600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 non auth user trying to get to 
+\f1\b http://mail.google.com/a/psosamldemo.net\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\b0 \cf0 google intercepts the call and then generates a saml request (when provider gets this, please verify against https://www.google.com/a/psosamldemo.net/acs\
+\
+you reached me, I'm giving you something that, if you know what to do with it, then process it and get back to me.  If they are ok with you, then they are ok with me, because i trust you. Just tell me how i can know who they are.\
+\
+i respond with, yeah, they are ok with me, here is the username you should use, go for it.\
+\
+\
+underlying assumption is that the folks you have, in the domain you own are also in my system (provider). Because i trust you, I will let you in, just tell me how i should reference you in my system (username...etc)\
+\
+Sears is IdP\
+VRM is RP\
+VRM has ACS (
+\f2 assertion consumer service)\
+vendor has test and production SP (service provider)\
+
+\f1 \
+\
+vrm.com/saml  - sears.com/vrm  VRM gets hit by sears user browser with a request (a particular url is used - this will be remembered as the final destination)\
+VRM generates SAML Request\
+SAML Request is sent back to Sears ACS (via 302 on user browser)\
+Sears processes the information and says - this person is ok with me.(cache,authenticate) (authenticated locally)\
+Sears gives the user some info back in their browser and then go to ACS on VRM - ACS will now let you through.  Everything is signed - https, and i know the stamps match up, and i have the user\
+\
+AuthnRequestTemplate.xml - this is what is returned by VRM when they are first hit - this is the template for the SAML request they will create.\
+\
+\pard\pardeftab720
+
+\f2 \cf0 For the SAML 2.0 solution only it is possible for a session to 
+\b begin at the relying site at any URL
+\b0  and with proper SP configuration the
+\b  relying site will preserve the initially requested URL
+\b0 , auto-redirect the user's browser to the 
+\b SHC SSO site for authentication
+\b0 , and assuming authentication is successful, 
+\b auto-redirect the user's browser back to the relying site
+\b0  which sees an existing session with a preserved initial URL and auto-redirects the user's browser to that page. This allows users, to access or store as bookmarks, different links into the relying party site.\
+\
+\
+need\
+	Sears CA Cert - we need to put this inside the ACS for VRM \
+	Copy of Sears metadata\
+	What LDAP attars do we need from Sears?  (email only)\
+	What is the subject of the assertion\
+	\
+\
+\
+User clicks link to {\field{\*\fldinst{HYPERLINK "https://sso.searshc.com/appname"}}{\fldrslt \cf2 \ul \ulc2 https://sso.searshc.com/
+\i \ulnone appname}}
+\i \cf2    vrm
+\i0 \cf0 \
+User enters their SHC enterprise ID and password\
+If authentication is successful the user's browser is redirected to the relying party site/application in an authenticated state\
+
+\f1 \
+\
+https://sso.searshc.com/vrm\
+\
+\
+\
+}

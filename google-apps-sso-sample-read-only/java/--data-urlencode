@@ -1,0 +1,57 @@
+== Info: About to connect() to ec2-54-211-12-221.compute-1.amazonaws.com port 8080 (#0)
+== Info:   Trying 54.211.12.221...
+== Info: Adding handle: conn: 0x7faba4009000
+== Info: Adding handle: send: 0
+== Info: Adding handle: recv: 0
+== Info: Curl_addHandleToPipeline: length: 1
+== Info: - Conn 0 (0x7faba4009000) send_pipe: 1, recv_pipe: 0
+== Info: Connected to ec2-54-211-12-221.compute-1.amazonaws.com (54.211.12.221) port 8080 (#0)
+=> Send header, 141 bytes (0x8d)
+0000: GET /samltool/ProcessResponseServlet HTTP/1.1
+002f: User-Agent: curl/7.30.0
+0048: Host: ec2-54-211-12-221.compute-1.amazonaws.com:8080
+007e: Accept: */*
+008b: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+== Info: Server Apache-Coyote/1.1 is not blacklisted
+<= Recv header, 27 bytes (0x1b)
+0000: Server: Apache-Coyote/1.1
+<= Recv header, 73 bytes (0x49)
+0000: Set-Cookie: JSESSIONID=9D7DA3717285419D7E944413C384E7C8; Path=/s
+0040: amltool
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 22 bytes (0x16)
+0000: Content-Length: 1455
+<= Recv header, 37 bytes (0x25)
+0000: Date: Wed, 14 Aug 2013 05:53:42 GMT
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 1245 bytes (0x4dd)
+0000: <!--.Copyright (C) 2006 Google Inc...Licensed under the Apache L
+0040: icense, Version 2.0 (the "License");.you may not use this file e
+0080: xcept in compliance with the License..You may obtain a copy of t
+00c0: he License at..     http://www.apache.org/licenses/LICENSE-2.0..
+0100:      Unless required by applicable law or agreed to in writing, 
+0140: software.     distributed under the License is distributed on an
+0180:  "AS IS" BASIS,.     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIN
+01c0: D, either express or implied..     See the License for the speci
+0200: fic language governing permissions and.     limitations under th
+0240: e License..-->......<html>.<head>.  <meta http-equiv="content-ty
+0280: pe" content="text/html; charset=UTF-8">.  <link href="global/sty
+02c0: le.css" type="text/css" rel="stylesheet"/>.  <title>SAML-based S
+0300: ingle Sign-On Service for myVRM's Communication Service Manager 
+0340: App for a Partner Domain - Test Tool</title>.</head>.<script lan
+0380: guage="JavaScript">.  function submit_now(s,r) {.    document.ac
+03c0: sForm.SAMLResponse.value=s;.    document.acsForm.RelayState.valu
+0400: e=r;.    document.acsForm.submit();.  }.</script>.<body>.  <h1>P
+0440: ARTNER - Identity Provider</h1>.  . .      <p><div style="paddin
+0480: g:0px 8px;border:solid 1px #000;background:#ddd">.      <p><cent
+04c0: er><img src="global/warning.g
+<= Recv data, 210 bytes (0xd2)
+0000: if"></center>.      <p><b>Note: The user cannot be authenticated
+0040: , and a SAML response cannot be .      sent, until a SAML reques
+0080: t is received from the service provider. </b></p>.      </div>. 
+00c0:  .</body>.</html>.
+== Info: Connection #0 to host ec2-54-211-12-221.compute-1.amazonaws.com left intact
